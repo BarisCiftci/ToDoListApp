@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2071A8299C1B7C006F3DD3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2071A7299C1B7C006F3DD3 /* ListViewModel.swift */; };
 		3DFBF5582995987B00C9E6D9 /* ToDoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBF5572995987B00C9E6D9 /* ToDoListAppApp.swift */; };
 		3DFBF55C2995987B00C9E6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFBF55B2995987B00C9E6D9 /* Assets.xcassets */; };
 		3DFBF55F2995987B00C9E6D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFBF55E2995987B00C9E6D9 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2071A7299C1B7C006F3DD3 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		3DFBF5542995987B00C9E6D9 /* ToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFBF5572995987B00C9E6D9 /* ToDoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppApp.swift; sourceTree = "<group>"; };
 		3DFBF55B2995987B00C9E6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2071A6299C1B25006F3DD3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D2071A7299C1B7C006F3DD3 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		3DFBF54B2995987B00C9E6D9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				3DFBF5572995987B00C9E6D9 /* ToDoListAppApp.swift */,
-				3DFBF565299598EE00C9E6D9 /* Views */,
 				3DFBF56C29991C8A00C9E6D9 /* Models */,
+				3D2071A6299C1B25006F3DD3 /* ViewModels */,
+				3DFBF565299598EE00C9E6D9 /* Views */,
 				3DFBF55B2995987B00C9E6D9 /* Assets.xcassets */,
 				3DFBF55D2995987B00C9E6D9 /* Preview Content */,
 			);
@@ -164,6 +175,7 @@
 			files = (
 				3DFBF57029991CD500C9E6D9 /* ItemModel.swift in Sources */,
 				3DFBF56B29959E3200C9E6D9 /* AddView.swift in Sources */,
+				3D2071A8299C1B7C006F3DD3 /* ListViewModel.swift in Sources */,
 				3DFBF5582995987B00C9E6D9 /* ToDoListAppApp.swift in Sources */,
 				3DFBF5672995990500C9E6D9 /* ListView.swift in Sources */,
 				3DFBF56929959A4400C9E6D9 /* ListRowView.swift in Sources */,
