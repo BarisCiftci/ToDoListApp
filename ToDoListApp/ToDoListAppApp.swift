@@ -26,6 +26,7 @@ struct ToDoListAppApp: App {
             NavigationView {
                 ListView()
             }
+            .navigationViewStyle(.stack)
             .environmentObject(listVieModel)
         }
     }

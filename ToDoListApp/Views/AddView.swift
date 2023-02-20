@@ -69,6 +69,7 @@ struct AddView_Previews: PreviewProvider {
         NavigationView {
             AddView()
         }
+        .preferredColorScheme(.dark)
         .environmentObject(ListViewModel())
     }
 }
